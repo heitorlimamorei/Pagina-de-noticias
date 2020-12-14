@@ -1,5 +1,6 @@
 
- var Names
+ var Names 
+ var nome 
  function asd () {
 	 var Names = prompt('Coloque seu nome aqui')
 	 alert(`Olá ${Names}`)
@@ -8,7 +9,7 @@
 function afd () {
 	 var dips = prompt("Coloque sua questão aqui ")
 	 if (dips == "Nomes") {
-		 alert(`Nome registrado ${Names}`)
+		 alert(`Nome registrado ${nome}`)
 		 console.log("Nome Registrado Logado")
 	 }
 	 if (dips == "Site") {
@@ -20,7 +21,7 @@ function afd () {
 	 if (dips =="Add") {
 		 var Names = prompt("Coloque um Nome aqui")
 		 var senhas = prompt("Coloque sua senha")
-		 alert(`Confirmando sua senha e ususario , senha ${senhas}, usuario ${Names}`)
+		 alert(`Confirmando sua senha e usuario , senha ${senhas}, usuario ${Names}`)
 		 console.log("Dados Registrados")
 		 console.log(`Usuario-${Names}  Senha-${senhas}`)
 	 }
