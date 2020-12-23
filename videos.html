@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/d743f786/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="videos.css">
-    <script src="video.js"></script>
     <title>Youtube fajuto</title>
 </head>
 <script>
-    let permissao = window.prompt('sua senha ')
+    let permissao = window.prompt('Sua senha ')
 
     switch (permissao) {
         case 'usuarioap':
             console.log("Usuario aprovado")
             alert('Bem Vindo UserAp!');
+            document.write(`Logado com : ${permissao}`)
             break;
+
+            case 'usuarioap1':
+                console.log("Usuario aprovado")
+                alert('Bem Vindo UserAp1')
+                document.write(`Logado com : ${permissao}`)
+                break;
 
         default:
             console.log('Usuario negado')
@@ -39,13 +45,12 @@
                     alt="">
             </div>
             <div id="hip">
-                <h4>Youtube fajuto</h4>
+                
             </div>
         </div>
         <div style="float: right;">
-            <span onclick="asd"><img
-                    src="https://lh3.googleusercontent.com/-ilgiEkc61xY/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmxZ0l-syfN5s4nYWfvkFTwiX3knQ/s48-c/photo.jpg"
-                    alt=""></span>
+            <img src="https://lh3.googleusercontent.com/-ilgiEkc61xY/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmxZ0l-syfN5s4nYWfvkFTwiX3knQ/s48-c/photo.jpg" alt="">
+            
         </div>
     </header>
     <br>
