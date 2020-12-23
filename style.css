@@ -29,6 +29,7 @@ body {
 	text-align: center;
 	border-width: 10px;
 	border-style: solid;
+	
 
 	border-radius: 10px;
 	border-color: gray;
@@ -60,6 +61,15 @@ body {
 
 	border-radius: 10px;
 	border-color: gray;
-	height: 400px;
-	width: 400x;
+	height: 500px;
+	width: 920px;
 }
+#marine{
+	text-align: center;
+	float: left;
+
+}
+#navy{
+	text-align: center;
+	float: left;
+} 
