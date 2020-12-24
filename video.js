@@ -24,7 +24,7 @@ let permissao = window.prompt('Sua senha ')
             document.writeln("USUARIO ILEGAL")
             break;
     }
-    function asd (){
+    function ghu (){
     console.log("Pedido de Usuario")
     console.log(`Nome de usuario${permissao}`)
     alert(`Nome de usuario:${permissao} Status: Logado`)
