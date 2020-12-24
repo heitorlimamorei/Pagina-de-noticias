@@ -54,7 +54,7 @@ function afd () {
 				 console.log(`Sua pontuação agora é ${pontos} Pontos!`)
 
 			 }
-			 var klip = prompt("O Google e uma das maiores impresas do mundo ?")
+			 var klip = prompt("O Google e uma das maiores empresas do mundo ?")
 			 if (klip == "Sim") {
 				 console.log("Acertou")
 				 var pontos = pontos + 1
