@@ -32,6 +32,6 @@ let status
     function ghu (){
     console.log("Pedido de Usuario")
     console.log(`Nome de usuario${permissao}`)
-    alert(`Nome de usuario:${permissao} Status: ${status}`)
+    alert(`Nome de usuario: ${permissao} Status: ${status}`)
     
     }
