@@ -64,3 +64,8 @@ body {
 	height: 400px;
 	width: 400x;
 }
+#clip{
+	border-radius: 5px;
+	
+	text-align: center;
+}
