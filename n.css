@@ -28,8 +28,18 @@ body {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr ;
 }
+#news2 {
+    display: grid;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
 .img {
     height: 310px;
+    border-color: white;
+    border-radius: 5px;
+}
+.img1 {
+    height: 210px;
     border-color: white;
     border-radius: 5px;
 }
